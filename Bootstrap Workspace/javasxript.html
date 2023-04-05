@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var v1, v2;
+
+
+        function Addition() {
+            var v1 = parseInt(document.getElementById("n1").value);
+            var v2 = parseInt(document.getElementById("n2").value);
+
+            var res = v1 + v2;
+            document.write("Addition: " + res + "<br>");
+
+            //res=v1*v2;
+            //document.write("Multiplication: "+res+"<br>");
+
+            //res=v1/v2;
+            //document.write("Division: "+res+"<br>");
+
+        }
+
+        function Substraction() {
+            var v1 = parseInt(document.getElementById("n1").value);
+            var v2 = parseInt(document.getElementById("n2").value);
+
+            var res = v1 - v2;
+            document.write("Addition: " + res + "<br>");
+        }
+        function Multlpication() {
+            var v1 = parseInt(document.getElementById("n1").value);
+            var v2 = parseInt(document.getElementById("n2").value);
+
+            var res = v1 * v2;
+            document.write("Addition: " + res + "<br>");
+        }
+        function Division() {
+            var v1 = parseInt(document.getElementById("n1").value);
+            var v2 = parseInt(document.getElementById("n2").value);
+
+            var res = v1 / v2;
+            document.write("Addition: " + res + "<br>");
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <form>
+        <table>
+            <div>
+                <tr>
+                    <td>
+                        <label for="n1">Number1:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="n1" name="n1" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="n2">Number2:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="n2" name="n2" />
+                    </td>
+
+            </div><br>
+
+            <div>
+                <td>
+                    <input type="submit" value="ADDITION" onclick="Addition();" />
+                </td>
+                <td>
+                    <input type="submit" value="SUBSTRACTION" onclick="Substraction();" />
+                </td>
+                <td>
+                    <input type="submit" value="MULTIPLICATION" onclick="Multlpication();" />
+                </td>
+                <td>
+                    <input type="submit" value="DIVISION" onclick="Division();" />
+                </td>
+            </div>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

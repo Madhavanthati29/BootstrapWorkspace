@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: #333;
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-form {
+        background: #fff;
+        padding: 30px 50px;
+        border-radius: 10px;
+    }
+
+    .form-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .form-title h1 {
+        margin: 0px;
+        color: #0cd6a8;
+    }
+
+    .single-input {
+        width: 270px;
+        border: 1px solid #c1c1c1;
+        display: flex;
+        margin-bottom: 15px;
+    }
+
+    .single-input i {
+        padding: 8px 16px;
+        color: #0cd6a8;
+    }
+
+    .single-input input {
+        border: 0px solid #c1c1c1;
+        width: 100%;
+        outline: none;
+        height: 30px;
+        font-size: 18px;
+    }
+
+    .submit-btn {
+        border: 0px solid #c1c1c1;
+        margin-top: 30px;
+
+    }
+
+    .submit-btn input {
+        background: #0cd6a8;
+        color: #fff;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <!-- form start -->
+        <div class="my-form">
+            <div class="form-title">
+                <h1>Sign Up</h1>
+            </div>
+            <!-- main form -->
+            <form action="">
+                <div class="single-input">
+                    <span><i class="fa fa-user"></i></span>
+                    <input type="text" placeholder="User Name">
+                </div>
+                <div class="single-input">
+                    <span><i class="fa fa-envelope"></i></i></span>
+                    <input type="password" placeholder="Email Address">
+                </div>
+                <div class="single-input">
+                    <span><i class="fas fa-phone"></i></span>
+                    <input type="password" placeholder="Phonenumber">
+                </div>
+                <div class="single-input">
+                    <span><i class="fas fa-address-book"></i></span>
+                    <input type="password" placeholder="Address">
+                </div>
+
+                <div class="single-input submit-btn">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <form style="border-width:4px;
+        border-top-style:solid;
+        border-bottom-style:dashed;
+        border-left-style:groove;
+        border-right-style:double;">
+    </form>
+</body>
+
+</html>
